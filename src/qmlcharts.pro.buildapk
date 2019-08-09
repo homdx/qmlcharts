@@ -1,0 +1,15 @@
+QT += charts qml quick
+
+SOURCES += \
+    main.cpp
+
+DEPENDS = "qtquickcontrols2"
+
+RESOURCES += \
+    resources.qrc
+
+DISTFILES += \
+    qml/qmlchart/*
+
+target.path = $$[QT_INSTALL_EXAMPLES]/charts/qmlchart
+INSTALLS += target
